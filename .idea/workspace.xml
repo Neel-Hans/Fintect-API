@@ -1,18 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="65e8d440-a44e-4302-88a9-8731d19dfddb" name="Changes" comment="" />
+    <list default="true" id="65e8d440-a44e-4302-88a9-8731d19dfddb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/centralised_helpers/normailze_phone_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/centralised_helpers/normailze_phone_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/dependencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/rbac.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/rbac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/security.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/security.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/db/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/enums/enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/enums/enums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/financial_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/financial_record.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/admin_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/admin_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/auth_router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/auth_router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/dashboard_summary_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/dashboard_summary_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/financial_records_management_rooutes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/financial_records_management_rooutes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/financial_record_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/financial_record_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/register_login_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/register_login_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/user_response.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/user_response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/create_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/create_tables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/data/financial_records.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/data/financial_records.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/seed_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/seed_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/seed_financial.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/seed_financial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/auth_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/auth_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/dashboard_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/dashboard_summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/export_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/export_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/financial_records_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/financial_records_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Sandhivigrahika"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sandhivigrahika/Fintech-Project-with-RBAC-and-Dashboard-.git",
+    "accountId": "8e2e46d3-02fc-4975-b311-c1701f249d32"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3Bl4cbiaNcP65MpFiY6jvLe9AZR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -22,9 +73,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\neelh\PycharmProjects\fintech_project\app" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="fintech_project" />
@@ -66,16 +122,5 @@
       <updated>1775050403238</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
