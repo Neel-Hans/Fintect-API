@@ -23,7 +23,8 @@ def seed_financial_records():
             print("Financial Records already exists")
             return
 
-        json_path = os.path.join(project_root, "data/financial_records.json")
+        json_path = os.path.join(project_root, "app", "scripts", "data", "financial_records.json")
+        #resolved the path issue
         print(f"JSON path: {json_path}")
         print(f"File exists: {os.path.exists(json_path)}")
         with open(json_path, "r") as f:
