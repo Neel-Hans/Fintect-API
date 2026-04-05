@@ -2,6 +2,7 @@
 
 A backend API for a finance dashboard system built with FastAPI, SQLAlchemy, and SQLite/PgSql.
 
+
 ---
 
 ## Tech Stack
@@ -40,14 +41,26 @@ A backend API for a finance dashboard system built with FastAPI, SQLAlchemy, and
 5. **Run the server**
    uvicorn main:app --reload
 
-Tables and seed data are created automatically on startup.
 
+Tables and seed data are created automatically on startup using FastAPI lifespan
 ---
 
 ## Default Admin Credentials
 
 email: neel.hans97@gmail.com
 password: admin123
+
+The admin credentials are currently hardcoded for faster development in production it will be handled through env variable.
+The admin has the power to promote and demote. 
+The default role assigned to users on registration is viewer. They can be later promoted by the admin
+to Analyst, or Admin. 
+
+As a safety measure the admin cannot demote themselves.
+
+## Analyst
+
+
+## Viewer
 
 ---
 
@@ -67,6 +80,8 @@ Click **Authorize** and login with the admin credentials to test protected endpo
 | Admin | Full access — manage users, records, dashboard |
 | Analyst | View records and dashboard summaries |
 | Viewer | View dashboard data only |
+
+The roles are handled by enums to 
 
 ---
 
@@ -185,7 +200,7 @@ fintech_project/
 ## Deployment
 
 Deployed on Railway. Live API:
-<your-railway-url>
+https://fintect-api-production.up.railway.app/docs
 
 API Docs:
-<your-railway-url>/docs
+https://fintect-api-production.up.railway.app/docs

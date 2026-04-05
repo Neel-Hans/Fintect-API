@@ -13,13 +13,23 @@ async def lifespan(app: FastAPI):
     try:
         print("Creating tables...")
         create_tables()
+    except Exception as e:
+        print(f"Create tables error: {e}")
+
+    try:
         print("Seeding admin...")
         seed_admin()
+    except Exception as e:
+        print(f"Seed admin error: {e}")
+
+    try:
         print("Seeding financial records...")
         seed_financial_records()
     except Exception as e:
-        print(f"Lifespan error: {e}")
+        print(f"Seed financial records error: {e}")
+
     yield
+
 
 app = FastAPI(
     title="Fintech API",

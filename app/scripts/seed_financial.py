@@ -3,8 +3,9 @@ import os
 import json
 from datetime import datetime
 
-current_dir = os.path.dirname(__file__)
-project_root = os.path.abspath(os.path.join(current_dir, "../.."))
+current_dir = os.path.dirname(__file__) #app/scripts/
+project_root = os.path.abspath(os.path.join(current_dir, "../..")) #project root
+
 sys.path.append(project_root)
 
 
@@ -22,7 +23,9 @@ def seed_financial_records():
             print("Financial Records already exists")
             return
 
-        json_path = os.path.join(os.path.dirname(__file__), "data/financial_records.json")
+        json_path = os.path.join(project_root, "data/financial_records.json")
+        print(f"JSON path: {json_path}")
+        print(f"File exists: {os.path.exists(json_path)}")
         with open(json_path, "r") as f:
             records = json.load(f)
 
